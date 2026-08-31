@@ -1,4 +1,3 @@
 -- Write your query here
-FROM
-    WHERE
-    
+SELECT ITEM_ID, DESCRIPTION, PRICE
+    FROM ITEM
