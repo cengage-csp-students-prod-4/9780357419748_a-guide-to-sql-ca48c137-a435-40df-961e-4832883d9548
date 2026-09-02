@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 6:** List the office number and address for every property with three bedrooms
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-02 17:56:11.374991
