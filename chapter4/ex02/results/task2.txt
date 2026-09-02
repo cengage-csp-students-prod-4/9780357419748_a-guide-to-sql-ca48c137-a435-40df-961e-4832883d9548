@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 2:** List the complete `PROPERTY` table
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-02 17:42:59.573068
