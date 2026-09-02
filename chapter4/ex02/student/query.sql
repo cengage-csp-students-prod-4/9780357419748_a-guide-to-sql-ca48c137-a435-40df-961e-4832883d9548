@@ -1,3 +1,3 @@
 SELECT LAST_NAME, FIRST_NAME
 FROM OWNER
-WHERE City = "Seattle"
+WHERE NOT City = "Seattle"
