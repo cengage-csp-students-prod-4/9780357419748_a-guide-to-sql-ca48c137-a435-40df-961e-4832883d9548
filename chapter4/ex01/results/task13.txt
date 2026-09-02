@@ -1,0 +1,46 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 13:** List all details about all items. Order the output by item ID within location
+Reason: Expected:
++---------+-------------------------------+---------+----------+----------+--------+
+| ITEM_ID |          DESCRIPTION          | ON_HAND | CATEGORY | LOCATION | PRICE  |
++---------+-------------------------------+---------+----------+----------+--------+
+|  FS42   |     Aquarium (55 Gallon)      |    5    |   FSH    |    A     | 124.99 |
+|  LD14   |    Locking Small Dog Door     |   14    |   DOG    |    A     | 49.99  |
+|  PF19   |       Pump & Filter Kit       |    5    |   FSH    |    A     | 74.99  |
+|  UF39   |   Underground Fence System    |    7    |   DOG    |    A     | 199.99 |
+|  AD72   |      Dog Feeding Station      |   12    |   DOG    |    B     | 79.99  |
+|  BC33   | Feathers Bird Cage (12x24x18) |   10    |   BRD    |    B     | 79.99  |
+|  DT12   |       Dog Toy Gift Set        |   27    |   DOG    |    B     | 39.99  |
+|  LP73   |       Large Pet Carrier       |   23    |   DOG    |    B     | 59.99  |
+|  SP91   |       Small Pet Carrier       |   18    |   CAT    |    B     | 39.99  |
+|  CA75   |  Enclosed Cat Litter Station  |   15    |   CAT    |    C     | 39.99  |
+|  FM23   |      Fly Mask with Ears       |   41    |   HOR    |    C     | 24.95  |
+|  FS39   |     Folding Saddle Stand      |   12    |   HOR    |    C     | 39.99  |
+|  KH81   |    Wild Bird Food (25 lb)     |   24    |   BRD    |    C     | 19.99  |
+|  QB92   |    Quilted Stable Blanket     |   32    |   HOR    |    C     | 119.99 |
+|  WB49   |    Insulated Water Bucket     |   34    |   HOR    |    C     | 79.99  |
++---------+-------------------------------+---------+----------+----------+--------+
+Found:
++---------+-------------------------------+---------+----------+----------+--------+
+| ITEM_ID |          DESCRIPTION          | ON_HAND | CATEGORY | LOCATION | PRICE  |
++---------+-------------------------------+---------+----------+----------+--------+
+|  AD72   |      Dog Feeding Station      |   12    |   DOG    |    B     | 79.99  |
+|  BC33   | Feathers Bird Cage (12x24x18) |   10    |   BRD    |    B     | 79.99  |
+|  CA75   |  Enclosed Cat Litter Station  |   15    |   CAT    |    C     | 39.99  |
+|  DT12   |       Dog Toy Gift Set        |   27    |   DOG    |    B     | 39.99  |
+|  FM23   |      Fly Mask with Ears       |   41    |   HOR    |    C     | 24.95  |
+|  FS39   |     Folding Saddle Stand      |   12    |   HOR    |    C     | 39.99  |
+|  FS42   |     Aquarium (55 Gallon)      |    5    |   FSH    |    A     | 124.99 |
+|  KH81   |    Wild Bird Food (25 lb)     |   24    |   BRD    |    C     | 19.99  |
+|  LD14   |    Locking Small Dog Door     |   14    |   DOG    |    A     | 49.99  |
+|  LP73   |       Large Pet Carrier       |   23    |   DOG    |    B     | 59.99  |
+|  PF19   |       Pump & Filter Kit       |    5    |   FSH    |    A     | 74.99  |
+|  QB92   |    Quilted Stable Blanket     |   32    |   HOR    |    C     | 119.99 |
+|  SP91   |       Small Pet Carrier       |   18    |   CAT    |    B     | 39.99  |
+|  UF39   |   Underground Fence System    |    7    |   DOG    |    A     | 199.99 |
+|  WB49   |    Insulated Water Bucket     |   34    |   HOR    |    C     | 79.99  |
++---------+-------------------------------+---------+----------+----------+--------+
+Error : AssertionError - 
+Timestamp: 2026-09-02 18:42:36.111994
