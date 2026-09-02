@@ -1,26 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 8:** List the property ID for every property with a monthly rent that is between **$1,350** and **$1,750**
-Reason: Expected:
-+-------------+
-| PROPERTY_ID |
-+-------------+
-|      1      |
-|      4      |
-|      7      |
-|     10      |
-|     12      |
-+-------------+
-Found:
-+-------------+------------+------------------------+--------+-------+--------+--------------+-----------+
-| PROPERTY_ID | OFFICE_NUM |        ADDRESS         | SQR_FT | BDRMS | FLOORS | MONTHLY_RENT | OWNER_NUM |
-+-------------+------------+------------------------+--------+-------+--------+--------------+-----------+
-|      1      |     1      |   30 West Thomas Rd.   |  1600  |   3   |   1    |     1400     |   BU106   |
-|      4      |     1      | 105 North Illinois Rd. |  1750  |   3   |   1    |     1650     |   KO104   |
-|      7      |     2      |   447 Goldfield St.    |  1675  |   3   |   2    |     1700     |   CO103   |
-|     10      |     2      |     891 Alton Dr.      |  1300  |   3   |   1    |     1600     |   LO108   |
-|     12      |     2      |    2 Bow Ridge Ave.    |  1400  |   3   |   2    |     1700     |   RE107   |
-+-------------+------------+------------------------+--------+-------+--------+--------------+-----------+
-Error : AssertionError - 
-Timestamp: 2026-09-02 18:01:30.022531
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-02 18:02:19.346239
