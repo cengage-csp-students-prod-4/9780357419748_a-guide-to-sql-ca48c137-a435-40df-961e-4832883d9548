@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 7:** List the property for every property with two bedrooms that is managed by the StayWell-Georgetown office
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-02 17:59:24.325054
