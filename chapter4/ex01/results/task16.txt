@@ -1,0 +1,28 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 16:** List the item ID, description, and on-hand value of each item whose number of units on hand is more than the average number of units on hand for all items
+Reason: Expected:
++---------+------------------------+---------------+
+| ITEM_ID |      DESCRIPTION       | ON_HAND_VALUE |
++---------+------------------------+---------------+
+|  DT12   |    Dog Toy Gift Set    |    1079.73    |
+|  FM23   |   Fly Mask with Ears   |    1022.95    |
+|  KH81   | Wild Bird Food (25 lb) |    479.76     |
+|  LP73   |   Large Pet Carrier    |    1379.77    |
+|  QB92   | Quilted Stable Blanket |    3839.68    |
+|  WB49   | Insulated Water Bucket |    2719.66    |
++---------+------------------------+---------------+
+Found:
++---------+------------------------+---------+
+| ITEM_ID |      DESCRIPTION       | ON_HAND |
++---------+------------------------+---------+
+|  DT12   |    Dog Toy Gift Set    |   27    |
+|  FM23   |   Fly Mask with Ears   |   41    |
+|  KH81   | Wild Bird Food (25 lb) |   24    |
+|  LP73   |   Large Pet Carrier    |   23    |
+|  QB92   | Quilted Stable Blanket |   32    |
+|  WB49   | Insulated Water Bucket |   34    |
++---------+------------------------+---------+
+Error : AssertionError - 
+Timestamp: 2026-09-09 18:05:24.389663
