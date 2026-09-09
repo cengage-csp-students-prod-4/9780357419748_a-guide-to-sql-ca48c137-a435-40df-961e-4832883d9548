@@ -1,28 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 14:** Calculate the total value of monthly rents for all properties, display this value in a column labeled **TOTAL_VALUE**
-Reason: Expected:
-+-------------+
-| TOTAL_VALUE |
-+-------------+
-|    19260    |
-+-------------+
-Found:
-+-------------+
-| TOTAL_VALUE |
-+-------------+
-|    1400     |
-|    1900     |
-|    1200     |
-|    1650     |
-|    1160     |
-|    2050     |
-|    3400     |
-|    2750     |
-|    1050     |
-|    1600     |
-|    1100     |
-+-------------+
-Error : AssertionError - 
-Timestamp: 2026-09-09 18:17:03.454138
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-09 18:21:26.352877
