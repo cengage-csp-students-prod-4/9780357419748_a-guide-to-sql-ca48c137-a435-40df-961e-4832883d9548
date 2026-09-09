@@ -1,18 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 14:** How many customers have balances that are more than their credit limits?
-Reason: Expected:
-+----------+
-| COUNT(*) |
-+----------+
-|    1     |
-+----------+
-Found:
-+---------+------------+-----------+-------------------+-----------+-------+--------+-----------------------+---------+--------------+--------+
-| CUST_ID | FIRST_NAME | LAST_NAME |      ADDRESS      |   CITY    | STATE | POSTAL |         EMAIL         | BALANCE | CREDIT_LIMIT | REP_ID |
-+---------+------------+-----------+-------------------+-----------+-------+--------+-----------------------+---------+--------------+--------+
-|   375   |  Melanie   |  Jackson  | 42 Blackwater Way | Elk Butte |  WY   | 82433  | mjackson5@example.com | 252.25  |    250.00    |   05   |
-+---------+------------+-----------+-------------------+-----------+-------+--------+-----------------------+---------+--------------+--------+
-Error : AssertionError - 
-Timestamp: 2026-09-09 17:45:26.864223
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-09 17:47:16.378999
