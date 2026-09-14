@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 22:** List the item ID, description, and discounted price for all items
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-14 18:11:51.343835
