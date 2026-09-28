@@ -1,1 +1,3 @@
--- Write your query here
+SELECT INVOICES.invoice_num, INVOICES.invoice_date, CUSTOMER.CUST_ID, CUSTOMER.first_name, CUSTOMER.last_name
+FROM INVOICES, CUSTOMER
+WHERE INVOICES.CUST_ID = CUSTOMER.CUST_ID
