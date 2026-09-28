@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 2:** For each invoice placed on **November 15, 2021**, list the invoice number along with the ID, first name, and last name of the customer for which the invoice was created
-Reason: The following error is preventing tests from completing: 1052 (23000): Column 'CUST_ID' in field list is ambiguous
-Error : IntegrityError - 1052 (23000): Column 'CUST_ID' in field list is ambiguous
-Timestamp: 2026-09-28 18:08:58.586459
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-28 18:10:23.191548
