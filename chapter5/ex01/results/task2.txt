@@ -1,0 +1,20 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 2:** For each invoice placed on **November 15, 2021**, list the invoice number along with the ID, first name, and last name of the customer for which the invoice was created
+Reason: Expected:
++-------------+---------+------------+-----------+
+| INVOICE_NUM | CUST_ID | FIRST_NAME | LAST_NAME |
++-------------+---------+------------+-----------+
+|    14216    |   125   |    Joey    |   Smith   |
+|    14219    |   227   |   Sandra   |  Pincher  |
++-------------+---------+------------+-----------+
+Found:
++-------------+------------+-----------+
+| INVOICE_NUM | FIRST_NAME | LAST_NAME |
++-------------+------------+-----------+
+|    14216    |    Joey    |   Smith   |
+|    14219    |   Sandra   |  Pincher  |
++-------------+------------+-----------+
+Error : AssertionError - 
+Timestamp: 2026-09-28 18:05:32.654834
