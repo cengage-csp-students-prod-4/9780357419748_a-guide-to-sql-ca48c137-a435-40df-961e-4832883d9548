@@ -2,19 +2,6 @@
 Status: FAILED!
 Check: 1
 Test: **Task 2:** For each invoice placed on **November 15, 2021**, list the invoice number along with the ID, first name, and last name of the customer for which the invoice was created
-Reason: Expected:
-+-------------+---------+------------+-----------+
-| INVOICE_NUM | CUST_ID | FIRST_NAME | LAST_NAME |
-+-------------+---------+------------+-----------+
-|    14216    |   125   |    Joey    |   Smith   |
-|    14219    |   227   |   Sandra   |  Pincher  |
-+-------------+---------+------------+-----------+
-Found:
-+-------------+--------------+------------+-----------+
-| INVOICE_NUM | INVOICE_DATE | FIRST_NAME | LAST_NAME |
-+-------------+--------------+------------+-----------+
-|    14216    |  2021-11-15  |    Joey    |   Smith   |
-|    14219    |  2021-11-15  |   Sandra   |  Pincher  |
-+-------------+--------------+------------+-----------+
-Error : AssertionError - 
-Timestamp: 2026-09-28 18:08:11.147466
+Reason: The following error is preventing tests from completing: 1052 (23000): Column 'CUST_ID' in field list is ambiguous
+Error : IntegrityError - 1052 (23000): Column 'CUST_ID' in field list is ambiguous
+Timestamp: 2026-09-28 18:08:58.586459
