@@ -1,0 +1,32 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 1:** For each invoice, list the invoice number and invoice date along with the ID, first name, and last name of the customer for which the invoice was created
+Reason: Expected:
++-------------+--------------+---------+------------+-----------+
+| INVOICE_NUM | INVOICE_DATE | CUST_ID | FIRST_NAME | LAST_NAME |
++-------------+--------------+---------+------------+-----------+
+|    14216    |  2021-11-15  |   125   |    Joey    |   Smith   |
+|    14219    |  2021-11-15  |   227   |   Sandra   |  Pincher  |
+|    14222    |  2021-11-16  |   294   |  Samantha  |   Smith   |
+|    14224    |  2021-11-16  |   182   |   Billy    |  Rufton   |
+|    14228    |  2021-11-18  |   435   |   James    | Gonzalez  |
+|    14231    |  2021-11-18  |   125   |    Joey    |   Smith   |
+|    14233    |  2021-11-18  |   435   |   James    | Gonzalez  |
+|    14237    |  2021-11-19  |   616   |   Sally    |   Cruz    |
++-------------+--------------+---------+------------+-----------+
+Found:
++-------------+--------------+---------+------------+-----------+
+| invoice_num | invoice_date | CUST_ID | first_name | last_name |
++-------------+--------------+---------+------------+-----------+
+|    14216    |  2021-11-15  |   125   |    Joey    |   Smith   |
+|    14219    |  2021-11-15  |   227   |   Sandra   |  Pincher  |
+|    14222    |  2021-11-16  |   294   |  Samantha  |   Smith   |
+|    14224    |  2021-11-16  |   182   |   Billy    |  Rufton   |
+|    14228    |  2021-11-18  |   435   |   James    | Gonzalez  |
+|    14231    |  2021-11-18  |   125   |    Joey    |   Smith   |
+|    14233    |  2021-11-18  |   435   |   James    | Gonzalez  |
+|    14237    |  2021-11-19  |   616   |   Sally    |   Cruz    |
++-------------+--------------+---------+------------+-----------+
+Error : AssertionError - 
+Timestamp: 2026-09-28 17:57:11.489513
