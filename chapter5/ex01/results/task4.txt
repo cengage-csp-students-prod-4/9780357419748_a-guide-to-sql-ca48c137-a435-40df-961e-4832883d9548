@@ -1,11 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 4:** Use the `IN` operator to find the ID, first name, and last name of each customer for which as invoice was created on **November 15, 2021**
-Reason: The following error is preventing tests from completing: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{SELECT I.CUST_ID
-                    FROM INVOICES I
-                    WHERE ' at line 4
-Error : ProgrammingError - 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{SELECT I.CUST_ID
-                    FROM INVOICES I
-                    WHERE ' at line 4
-Timestamp: 2026-09-30 17:53:22.196182
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-30 17:54:38.873022
