@@ -1,25 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 10:** Repeat *Task 9*, but this time do not use a subquery
-Reason: Expected:
-+--------+------------+-----------+
-| REP_ID | FIRST_NAME | LAST_NAME |
-+--------+------------+-----------+
-|   05   |   Susan    |  Garcia   |
-|   15   |   Donna    |   Smith   |
-|   10   |  Richard   |  Miller   |
-+--------+------------+-----------+
-Found:
-+--------+------------+-----------+
-| REP_ID | FIRST_NAME | LAST_NAME |
-+--------+------------+-----------+
-|   05   |   Susan    |  Garcia   |
-|   15   |   Donna    |   Smith   |
-|   10   |  Richard   |  Miller   |
-|   10   |  Richard   |  Miller   |
-|   15   |   Donna    |   Smith   |
-|   05   |   Susan    |  Garcia   |
-+--------+------------+-----------+
-Error : AssertionError - 
-Timestamp: 2026-09-30 18:35:56.656001
+Reason: The query returned the expected results.None
+Timestamp: 2026-09-30 18:37:12.823298
