@@ -1,6 +1,6 @@
 SELECT C.CUST_ID, FIRST_NAME, LAST_NAME
 FROM CUSTOMER C
 WHERE C.CUST_ID IN 
-                    {SELECT I.CUST_ID
+                    (SELECT I.CUST_ID
                     FROM INVOICES I
-                    WHERE INVOICE_DATE = "2021-11-15"}
+                    WHERE INVOICE_DATE = "2021-11-15")
