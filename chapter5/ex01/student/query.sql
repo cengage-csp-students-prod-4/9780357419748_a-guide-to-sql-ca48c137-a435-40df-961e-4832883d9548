@@ -1,6 +1,7 @@
 SELECT C.CUST_ID, FIRST_NAME, LAST_NAME
 FROM CUSTOMER C
-WHERE C.CUST_ID IN 
-                    (SELECT I.CUST_ID
+WHERE EXISTS 
+                    (SELECT *
                     FROM INVOICES I
-                    WHERE INVOICE_DATE = "2021-11-15")
+                    WHERE C.CUST_ID = I.CUST_ID AND
+                    INVOICE_DATE = '2021-11-15')
