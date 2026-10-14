@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 12:** List the item ID, description, and category for each pair of items that are in the same category
+Reason: The following error is preventing tests from completing: 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'KimTay.IT.ITEM_ID' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+Error : ProgrammingError - 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'KimTay.IT.ITEM_ID' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+Timestamp: 2026-10-14 17:55:37.305342
