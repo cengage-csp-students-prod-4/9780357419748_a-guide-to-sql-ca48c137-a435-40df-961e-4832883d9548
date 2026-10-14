@@ -2,6 +2,246 @@
 Status: FAILED!
 Check: 1
 Test: **Task 12:** List the item ID, description, and category for each pair of items that are in the same category
-Reason: The following error is preventing tests from completing: 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'KimTay.IT.ITEM_ID' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
-Error : ProgrammingError - 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'KimTay.IT.ITEM_ID' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
-Timestamp: 2026-10-14 17:55:37.305342
+Reason: Expected:
++----------+---------+-------------------------------+
+| CATEGORY | ITEM_ID |          DESCRIPTION          |
++----------+---------+-------------------------------+
+|   BRD    |  BC33   | Feathers Bird Cage (12x24x18) |
+|   BRD    |  KH81   |    Wild Bird Food (25 lb)     |
+|   CAT    |  CA75   |  Enclosed Cat Litter Station  |
+|   CAT    |  SP91   |       Small Pet Carrier       |
+|   FSH    |  FS42   |     Aquarium (55 Gallon)      |
+|   FSH    |  PF19   |       Pump & Filter Kit       |
++----------+---------+-------------------------------+
+Found:
++---------+-------------------------------+----------+
+| ITEM_ID |          DESCRIPTION          | CATEGORY |
++---------+-------------------------------+----------+
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
+|  WB49   |    Insulated Water Bucket     |   HOR    |
+|  UF39   |   Underground Fence System    |   DOG    |
+|  SP91   |       Small Pet Carrier       |   CAT    |
+|  QB92   |    Quilted Stable Blanket     |   HOR    |
+|  PF19   |       Pump & Filter Kit       |   FSH    |
+|  LP73   |       Large Pet Carrier       |   DOG    |
+|  LD14   |    Locking Small Dog Door     |   DOG    |
+|  KH81   |    Wild Bird Food (25 lb)     |   BRD    |
+|  FS42   |     Aquarium (55 Gallon)      |   FSH    |
+|  FS39   |     Folding Saddle Stand      |   HOR    |
+|  FM23   |      Fly Mask with Ears       |   HOR    |
+|  DT12   |       Dog Toy Gift Set        |   DOG    |
+|  CA75   |  Enclosed Cat Litter Station  |   CAT    |
+|  BC33   | Feathers Bird Cage (12x24x18) |   BRD    |
+|  AD72   |      Dog Feeding Station      |   DOG    |
++---------+-------------------------------+----------+
+Error : AssertionError - 
+Timestamp: 2026-10-14 17:58:22.564482
