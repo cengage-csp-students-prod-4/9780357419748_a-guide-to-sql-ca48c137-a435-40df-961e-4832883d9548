@@ -1,9 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 21:** For each sales rep, list the ID, first name, and last name for the customer, along with the sales rep first name, and sales rep last name
-Reason: The following error is preventing tests from completing: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'C.FIRST_NAME AS CUSTOMER_FIRST, C.LAST_NAME AS CUSTOMER_LAST 
-FROM SALES_REP S L' at line 1
-Error : ProgrammingError - 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'C.FIRST_NAME AS CUSTOMER_FIRST, C.LAST_NAME AS CUSTOMER_LAST 
-FROM SALES_REP S L' at line 1
-Timestamp: 2026-10-19 18:30:32.183931
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-19 18:31:37.964709
