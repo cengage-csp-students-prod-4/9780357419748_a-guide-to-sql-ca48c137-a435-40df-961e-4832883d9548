@@ -39,4 +39,4 @@ Found:
 |   20   |  Daniel   | Jackson  |      NULL      |     NULL      |
 +--------+-----------+----------+----------------+---------------+
 Error : AssertionError - 
-Timestamp: 2026-10-19 18:29:09.072824
+Timestamp: 2026-10-19 18:29:55.191197
