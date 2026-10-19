@@ -24,19 +24,19 @@ Found:
 +--------+-----------+----------+----------------+---------------+
 | REP_ID | REP_FIRST | REP_LAST | CUSTOMER_FIRST | CUSTOMER_LAST |
 +--------+-----------+----------+----------------+---------------+
-|   05   |   Susan   |  Garcia  |     Randy      |  Blacksmith   |
-|   05   |   Susan   |  Garcia  |     Angie      |   Hendricks   |
-|   05   |   Susan   |  Garcia  |    Melanie     |    Jackson    |
 |   05   |   Susan   |  Garcia  |      Joey      |     Smith     |
-|   10   |  Richard  |  Miller  |     Leslie     |     Smith     |
-|   10   |  Richard  |  Miller  |     Elmer      |    Jackson    |
-|   10   |  Richard  |  Miller  |    Samantha    |     Smith     |
+|   05   |   Susan   |  Garcia  |    Melanie     |    Jackson    |
+|   05   |   Susan   |  Garcia  |     Angie      |   Hendricks   |
+|   05   |   Susan   |  Garcia  |     Randy      |  Blacksmith   |
 |   10   |  Richard  |  Miller  |     Billy      |    Rufton     |
-|   15   |   Donna   |  Smith   |     Sally      |     Cruz      |
-|   15   |   Donna   |  Smith   |     James      |   Gonzalez    |
-|   15   |   Donna   |  Smith   |      Tom       |    Rascal     |
+|   10   |  Richard  |  Miller  |    Samantha    |     Smith     |
+|   10   |  Richard  |  Miller  |     Elmer      |    Jackson    |
+|   10   |  Richard  |  Miller  |     Leslie     |     Smith     |
 |   15   |   Donna   |  Smith   |     Sandra     |    Pincher    |
+|   15   |   Donna   |  Smith   |      Tom       |    Rascal     |
+|   15   |   Donna   |  Smith   |     James      |   Gonzalez    |
+|   15   |   Donna   |  Smith   |     Sally      |     Cruz      |
 |   20   |  Daniel   | Jackson  |      NULL      |     NULL      |
 +--------+-----------+----------+----------------+---------------+
 Error : AssertionError - 
-Timestamp: 2026-10-19 18:28:28.355684
+Timestamp: 2026-10-19 18:29:09.072824
