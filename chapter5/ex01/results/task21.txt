@@ -21,22 +21,22 @@ Reason: Expected:
 |   20   |  Daniel   | Jackson  |  NULL   |      NULL      |     NULL      |
 +--------+-----------+----------+---------+----------------+---------------+
 Found:
-+--------+----------------+---------------+-----------+----------+
-| REP_ID | CUSTOMER_FIRST | CUSTOMER_LAST | REP_FIRST | REP_LAST |
-+--------+----------------+---------------+-----------+----------+
-|  NULL  |      NULL      |     NULL      |  Daniel   | Jackson  |
-|   05   |     Randy      |  Blacksmith   |   Susan   |  Garcia  |
-|   05   |     Angie      |   Hendricks   |   Susan   |  Garcia  |
-|   05   |    Melanie     |    Jackson    |   Susan   |  Garcia  |
-|   05   |      Joey      |     Smith     |   Susan   |  Garcia  |
-|   10   |     Leslie     |     Smith     |  Richard  |  Miller  |
-|   10   |     Elmer      |    Jackson    |  Richard  |  Miller  |
-|   10   |    Samantha    |     Smith     |  Richard  |  Miller  |
-|   10   |     Billy      |    Rufton     |  Richard  |  Miller  |
-|   15   |     Sally      |     Cruz      |   Donna   |  Smith   |
-|   15   |     James      |   Gonzalez    |   Donna   |  Smith   |
-|   15   |      Tom       |    Rascal     |   Donna   |  Smith   |
-|   15   |     Sandra     |    Pincher    |   Donna   |  Smith   |
-+--------+----------------+---------------+-----------+----------+
++--------+-----------+----------+----------------+---------------+
+| REP_ID | REP_FIRST | REP_LAST | CUSTOMER_FIRST | CUSTOMER_LAST |
++--------+-----------+----------+----------------+---------------+
+|   05   |   Susan   |  Garcia  |     Randy      |  Blacksmith   |
+|   05   |   Susan   |  Garcia  |     Angie      |   Hendricks   |
+|   05   |   Susan   |  Garcia  |    Melanie     |    Jackson    |
+|   05   |   Susan   |  Garcia  |      Joey      |     Smith     |
+|   10   |  Richard  |  Miller  |     Leslie     |     Smith     |
+|   10   |  Richard  |  Miller  |     Elmer      |    Jackson    |
+|   10   |  Richard  |  Miller  |    Samantha    |     Smith     |
+|   10   |  Richard  |  Miller  |     Billy      |    Rufton     |
+|   15   |   Donna   |  Smith   |     Sally      |     Cruz      |
+|   15   |   Donna   |  Smith   |     James      |   Gonzalez    |
+|   15   |   Donna   |  Smith   |      Tom       |    Rascal     |
+|   15   |   Donna   |  Smith   |     Sandra     |    Pincher    |
+|   20   |  Daniel   | Jackson  |      NULL      |     NULL      |
++--------+-----------+----------+----------------+---------------+
 Error : AssertionError - 
-Timestamp: 2026-10-19 18:26:38.742076
+Timestamp: 2026-10-19 18:28:28.355684
