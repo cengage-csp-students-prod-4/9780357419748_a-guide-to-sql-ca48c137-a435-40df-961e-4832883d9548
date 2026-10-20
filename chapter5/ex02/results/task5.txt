@@ -1,0 +1,31 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 5:** Repeat *Task 4*, but this time use the `EXISTS` operator in your query
+Reason: Expected:
++------------+-----------+
+| FIRST_NAME | LAST_NAME |
++------------+-----------+
+|   Nicole   |  Bianchi  |
+|   Haydon   |   Sims    |
+|   Makesh   |   Patel   |
+|  Ammarah   |   Jones   |
++------------+-----------+
+Found:
++------------+-----------+
+| FIRST_NAME | LAST_NAME |
++------------+-----------+
+|   Ceyda    |   Aksoy   |
+|   Nicole   |  Bianchi  |
+|   Ernest   |   Burke   |
+|   Meerab   |   Cole    |
+|  Ammarah   |   Jones   |
+|   Jakub    | Kowalczyk |
+|   Janine   |   Lopez   |
+|  Elle-May  |   Moore   |
+|   Makesh   |   Patel   |
+|    Seth    |  Redman   |
+|   Haydon   |   Sims    |
++------------+-----------+
+Error : AssertionError - 
+Timestamp: 2026-10-20 18:12:23.865958
