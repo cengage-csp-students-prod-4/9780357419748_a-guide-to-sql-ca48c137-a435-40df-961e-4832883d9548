@@ -1,20 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 4:** In the `NONCAT` table, increase the price of each item in category `BRD` by **5%**
-Reason: Expected:
-+---------+-------------------------------+---------+----------+-------+
-| ITEM_ID |          DESCRIPTION          | ON_HAND | CATEGORY | PRICE |
-+---------+-------------------------------+---------+----------+-------+
-|  BC33   | Feathers Bird Cage (12x24x18) |   10    |   BRD    | 83.99 |
-|  KH81   |    Wild Bird Food (25 lb)     |   24    |   BRD    | 20.99 |
-+---------+-------------------------------+---------+----------+-------+
-Found:
-+---------+-------------------------------+---------+----------+-------+
-| ITEM_ID |          DESCRIPTION          | ON_HAND | CATEGORY | PRICE |
-+---------+-------------------------------+---------+----------+-------+
-|  BC33   | Feathers Bird Cage (12x24x18) |   10    |   BRD    | 79.99 |
-|  KH81   |    Wild Bird Food (25 lb)     |   24    |   BRD    | 19.99 |
-+---------+-------------------------------+---------+----------+-------+
-Error : AssertionError - 
-Timestamp: 2026-10-21 18:19:12.334163
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-21 18:20:17.990255
