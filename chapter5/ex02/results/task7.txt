@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 7:** List the square footage, owner number, owner last name, and owner first name for each property managed by the StayWell-Columbia City office
+Reason: The query returned the expected results.None
+Timestamp: 2026-10-23 03:51:17.258150
