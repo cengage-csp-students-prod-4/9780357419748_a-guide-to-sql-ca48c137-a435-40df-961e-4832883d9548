@@ -1,5 +1,5 @@
 SELECT * 
-FROM information_schema.TABLES
+FROM information_schema.COLUMNS
 WHERE TABLE_SCHEMA = "KimTay" AND TABLE_NAME = "CUSTOMER"
 LIMIT 11
 
