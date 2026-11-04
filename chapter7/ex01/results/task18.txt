@@ -1,18 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 18:** Delete the index named `ITEM_INDEX3`.
-Reason: Expected:
-+----------+
-| COUNT(*) |
-+----------+
-|    0     |
-+----------+
-Found:
-+----------+
-| COUNT(*) |
-+----------+
-|    2     |
-+----------+
-Error : AssertionError - 
-Timestamp: 2026-11-04 19:41:39.722787
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-04 19:44:01.764402
