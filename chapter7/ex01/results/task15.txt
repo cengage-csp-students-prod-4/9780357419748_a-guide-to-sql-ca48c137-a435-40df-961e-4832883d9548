@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 15:** Create an index named `ITEM_INDEX2` on the `CATEGORY` column in the `ITEM` table
-Reason: The following error is preventing tests from completing: cannot access local variable 'modified_row' where it is not associated with a value
-Error : UnboundLocalError - cannot access local variable 'modified_row' where it is not associated with a value
-Timestamp: 2026-11-04 19:32:19.238851
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-04 19:34:11.748265
