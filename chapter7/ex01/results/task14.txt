@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 14:** Create an index named `ITEM_INDEX1` on the `ITEM_ID` column in the `INVOICE_LINE` table
+Reason: Expected:
++--------------+------------+-------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+|    Table     | Non_unique |  Key_name   | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment | Visible | Expression |
++--------------+------------+-------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| INVOICE_LINE |     1      | ITEM_INDEX1 |      1       |   ITEM_ID   |     A     |     11      |   NULL   |  NULL  |      |   BTREE    |         |               |   YES   |    NULL    |
++--------------+------------+-------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+Found:
+
+Error : AssertionError - 
+Timestamp: 2026-11-04 19:31:20.436735
