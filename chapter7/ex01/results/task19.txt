@@ -1,27 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 19:** List every table that you have created thus far
-Reason: Expected:
-+--------------+--------------+
-| TABLE_SCHEMA |  TABLE_NAME  |
-+--------------+--------------+
-|    KimTay    |   CUSTOMER   |
-|    KimTay    |   INVOICES   |
-|    KimTay    | INVOICE_LINE |
-|    KimTay    |     ITEM     |
-|    KimTay    |  SALES_REP   |
-+--------------+--------------+
-Found:
-+--------------+--------------+
-| TABLE_SCHEMA |  TABLE_NAME  |
-+--------------+--------------+
-|    KimTay    |   CUSTOMER   |
-|    KimTay    |   INVOICES   |
-|    KimTay    | INVOICE_LINE |
-|    KimTay    |     ITEM     |
-|    KimTay    |    NONCAT    |
-|    KimTay    |  SALES_REP   |
-+--------------+--------------+
-Error : AssertionError - 
-Timestamp: 2026-11-10 21:41:36.212975
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 21:42:32.585039
