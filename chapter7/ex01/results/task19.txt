@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: **Task 19:** List every table that you have created thus far
+Reason: The following error is preventing tests from completing: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Error : ProgrammingError - 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+Timestamp: 2026-11-10 21:14:57.450233
