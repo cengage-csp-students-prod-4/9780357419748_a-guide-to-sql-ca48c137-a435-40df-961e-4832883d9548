@@ -1,28 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 20:** List every column in the `ITEM` table and its associated data type
-Reason: Expected:
-+-------------+---------------+------+-----+---------+-------+
-|    Field    |     Type      | Null | Key | Default | Extra |
-+-------------+---------------+------+-----+---------+-------+
-|   ITEM_ID   |    char(4)    |  NO  | PRI |  NULL   |       |
-| DESCRIPTION |  varchar(30)  | YES  |     |  NULL   |       |
-|   ON_HAND   | decimal(10,0) | YES  |     |  NULL   |       |
-|  CATEGORY   |    char(3)    | YES  | MUL |  NULL   |       |
-|  LOCATION   |    char(1)    | YES  |     |  NULL   |       |
-|    PRICE    | decimal(7,2)  | YES  |     |  NULL   |       |
-+-------------+---------------+------+-----+---------+-------+
-Found:
-+-------------+-----------+
-| COLUMN_NAME | DATA_TYPE |
-+-------------+-----------+
-|  CATEGORY   |   char    |
-| DESCRIPTION |  varchar  |
-|   ITEM_ID   |   char    |
-|  LOCATION   |   char    |
-|   ON_HAND   |  decimal  |
-|    PRICE    |  decimal  |
-+-------------+-----------+
-Error : AssertionError - 
-Timestamp: 2026-11-10 21:45:14.563128
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-10 21:49:49.705466
