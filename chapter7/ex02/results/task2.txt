@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test:  **Task 2:** Retrieve the office number, property ID, and monthly rent for every property in the `SMALL_PROPERTY` view with a monthly rent of **$1150** or more
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-11 01:38:38.712207
