@@ -1,21 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 17:** User **Klein** must have all privileges on the `OFFICE`, `OWNER`, and `PROPERTY` tables
-Reason: Unable to find 'GRANT SELECT ON OFFICE TO KLEIN' in the program.
-Error : str - AssertionError
-Timestamp: 2026-11-13 22:57:31.856594
+Reason: 'GRANT SELECT ON OFFICE TO KLEIN' was found in the program output.None
+Timestamp: 2026-11-13 22:58:27.580179
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: **Task 17:** User **Klein** must have all privileges on the `OFFICE`, `OWNER`, and `PROPERTY` tables
-Reason: Unable to find 'GRANT SELECT ON PROPERTY TO KLEIN' in the program.
-Error : str - AssertionError
-Timestamp: 2026-11-13 22:57:31.856884
+Reason: 'GRANT SELECT ON PROPERTY TO KLEIN' was found in the program output.None
+Timestamp: 2026-11-13 22:58:27.580456
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: **Task 17:** User **Klein** must have all privileges on the `OFFICE`, `OWNER`, and `PROPERTY` tables
-Reason: Unable to find 'GRANT SELECT ON OWNER TO KLEIN' in the program.
-Error : str - AssertionError
-Timestamp: 2026-11-13 22:57:31.857105
+Reason: 'GRANT SELECT ON OWNER TO KLEIN' was found in the program output.None
+Timestamp: 2026-11-13 22:58:27.580695
