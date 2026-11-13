@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 13:** Grant privileges for all users to `SELECT` on the `PROPERTY` table
-Reason: Unable to find 'GRANT SELECT ON PROPERTY TO ALL' in the program.
-Error : str - AssertionError
-Timestamp: 2026-11-13 22:42:49.286901
+Reason: 'GRANT SELECT ON PROPERTY TO ALL' was found in the program output.None
+Timestamp: 2026-11-13 22:43:34.080666
