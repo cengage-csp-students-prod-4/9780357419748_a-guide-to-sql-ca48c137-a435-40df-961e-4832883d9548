@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: **Task 8:** Write and execute the command to retrieve the square footage and average monthly rent for each property for which the average monthly rent is greater than **$1,400**
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-13 22:16:07.766793
