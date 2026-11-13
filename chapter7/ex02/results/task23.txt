@@ -16,17 +16,17 @@ Reason: Expected:
 |  OWNER_NUM   |   char(5)    |  NO  |     |  NULL   |       |
 +--------------+--------------+------+-----+---------+-------+
 Found:
-+---------------+--------------+------------+--------------+------------------+----------------+-------------+-----------+--------------------------+------------------------+-------------------+---------------+--------------------+--------------------+--------------------+--------------+------------+-------+---------------------------------+----------------+-----------------------+--------+
-| TABLE_CATALOG | TABLE_SCHEMA | TABLE_NAME | COLUMN_NAME  | ORDINAL_POSITION | COLUMN_DEFAULT | IS_NULLABLE | DATA_TYPE | CHARACTER_MAXIMUM_LENGTH | CHARACTER_OCTET_LENGTH | NUMERIC_PRECISION | NUMERIC_SCALE | DATETIME_PRECISION | CHARACTER_SET_NAME |   COLLATION_NAME   | COLUMN_TYPE  | COLUMN_KEY | EXTRA |           PRIVILEGES            | COLUMN_COMMENT | GENERATION_EXPRESSION | SRS_ID |
-+---------------+--------------+------------+--------------+------------------+----------------+-------------+-----------+--------------------------+------------------------+-------------------+---------------+--------------------+--------------------+--------------------+--------------+------------+-------+---------------------------------+----------------+-----------------------+--------+
-|      def      |   StayWell   |  PROPERTY  | PROPERTY_ID  |        1         |      NULL      |     NO      | smallint  |           NULL           |          NULL          |         5         |       0       |        NULL        |        NULL        |        NULL        |   smallint   |    PRI     |       | select,insert,update,references |                |                       |  NULL  |
-|      def      |   StayWell   |  PROPERTY  |  OFFICE_NUM  |        2         |      NULL      |     NO      |  tinyint  |           NULL           |          NULL          |         3         |       0       |        NULL        |        NULL        |        NULL        |   tinyint    |            |       | select,insert,update,references |                |                       |  NULL  |
-|      def      |   StayWell   |  PROPERTY  |   ADDRESS    |        3         |      NULL      |     NO      |  varchar  |           100            |          400           |       NULL        |     NULL      |        NULL        |      utf8mb4       | utf8mb4_0900_ai_ci | varchar(100) |            |       | select,insert,update,references |                |                       |  NULL  |
-|      def      |   StayWell   |  PROPERTY  |    SQR_FT    |        4         |      NULL      |     NO      | smallint  |           NULL           |          NULL          |         5         |       0       |        NULL        |        NULL        |        NULL        |   smallint   |            |       | select,insert,update,references |                |                       |  NULL  |
-|      def      |   StayWell   |  PROPERTY  |    BDRMS     |        5         |      NULL      |     NO      |  tinyint  |           NULL           |          NULL          |         3         |       0       |        NULL        |        NULL        |        NULL        |   tinyint    |            |       | select,insert,update,references |                |                       |  NULL  |
-|      def      |   StayWell   |  PROPERTY  |    FLOORS    |        6         |      NULL      |     NO      |  tinyint  |           NULL           |          NULL          |         3         |       0       |        NULL        |        NULL        |        NULL        |   tinyint    |            |       | select,insert,update,references |                |                       |  NULL  |
-|      def      |   StayWell   |  PROPERTY  | MONTHLY_RENT |        7         |      NULL      |     YES     | smallint  |           NULL           |          NULL          |         5         |       0       |        NULL        |        NULL        |        NULL        |   smallint   |            |       | select,insert,update,references |                |                       |  NULL  |
-|      def      |   StayWell   |  PROPERTY  |  OWNER_NUM   |        8         |      NULL      |     NO      |   char    |            5             |           20           |       NULL        |     NULL      |        NULL        |      utf8mb4       | utf8mb4_0900_ai_ci |   char(5)    |            |       | select,insert,update,references |                |                       |  NULL  |
-+---------------+--------------+------------+--------------+------------------+----------------+-------------+-----------+--------------------------+------------------------+-------------------+---------------+--------------------+--------------------+--------------------+--------------+------------+-------+---------------------------------+----------------+-----------------------+--------+
++--------------+--------------+-------------+------------+----------------+-------+
+| COLUMN_NAME  | COLUMN_TYPE  | IS_NULLABLE | COLUMN_KEY | COLUMN_DEFAULT | EXTRA |
++--------------+--------------+-------------+------------+----------------+-------+
+| PROPERTY_ID  |   smallint   |     NO      |    PRI     |      NULL      |       |
+|  OFFICE_NUM  |   tinyint    |     NO      |            |      NULL      |       |
+|   ADDRESS    | varchar(100) |     NO      |            |      NULL      |       |
+|    SQR_FT    |   smallint   |     NO      |            |      NULL      |       |
+|    BDRMS     |   tinyint    |     NO      |            |      NULL      |       |
+|    FLOORS    |   tinyint    |     NO      |            |      NULL      |       |
+| MONTHLY_RENT |   smallint   |     YES     |            |      NULL      |       |
+|  OWNER_NUM   |   char(5)    |     NO      |            |      NULL      |       |
++--------------+--------------+-------------+------------+----------------+-------+
 Error : AssertionError - 
-Timestamp: 2026-11-13 23:09:38.481317
+Timestamp: 2026-11-13 23:12:57.592116
