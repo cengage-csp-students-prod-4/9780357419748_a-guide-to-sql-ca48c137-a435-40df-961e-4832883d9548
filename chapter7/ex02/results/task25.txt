@@ -13,6 +13,7 @@ Found:
 | CONSTRAINT_CATALOG | CONSTRAINT_SCHEMA |  CONSTRAINT_NAME  | TABLE_SCHEMA | TABLE_NAME | CONSTRAINT_TYPE | ENFORCED |
 +--------------------+-------------------+-------------------+--------------+------------+-----------------+----------+
 |        def         |     StayWell      | FOREIGN_KEY_OWNER |   StayWell   |  PROPERTY  |   FOREIGN KEY   |   YES    |
+|        def         |     StayWell      |  PROPERTY_ibfk_1  |   StayWell   |  PROPERTY  |   FOREIGN KEY   |   YES    |
 +--------------------+-------------------+-------------------+--------------+------------+-----------------+----------+
 Error : AssertionError - 
-Timestamp: 2026-11-13 23:19:52.868669
+Timestamp: 2026-11-13 23:20:51.634557
