@@ -3,24 +3,24 @@ Status: PASSED!
 Check: 1
 Test: **Task 11:** Grant `INSERT` privileges to **Crandall** and **Perez** on the `PROPERTY` table.
 Reason: 'GRANT INSERT ON PROPERTY TO CRANDALL' was found in the program output.None
-Timestamp: 2026-11-13 22:32:02.083866
+Timestamp: 2026-11-13 22:33:17.268738
 
 Status: FAILED!
 Check: 2
 Test: **Task 11:** Grant `INSERT` privileges to **Crandall** and **Perez** on the `PROPERTY` table.
 Reason: Unable to find 'GRANT INSERT ON PROPERTY TO PEREZ' in the program.
 Error : str - AssertionError
-Timestamp: 2026-11-13 22:32:02.084087
+Timestamp: 2026-11-13 22:33:17.269054
 
 Status: PASSED!
 Check: 3
 Test: **Task 11:** Grant `INSERT` privileges to **Crandall** and **Perez** on the `OWNER` table.
 Reason: 'GRANT INSERT ON OWNER TO CRANDALL' was found in the program output.None
-Timestamp: 2026-11-13 22:32:02.084242
+Timestamp: 2026-11-13 22:33:17.269262
 
 Status: FAILED!
 Check: 4
 Test: **Task 11:** Grant `INSERT` privileges to **Crandall** and **Perez** on the `OWNER` table.
 Reason: Unable to find 'GRANT INSERT ON OWNER TO PEREZ' in the program.
 Error : str - AssertionError
-Timestamp: 2026-11-13 22:32:02.084375
+Timestamp: 2026-11-13 22:33:17.269439
