@@ -1,32 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: **Task 23:** List every column in the `PROPERTY` table and its associated data type.
-Reason: Expected:
-+--------------+--------------+------+-----+---------+-------+
-|    Field     |     Type     | Null | Key | Default | Extra |
-+--------------+--------------+------+-----+---------+-------+
-| PROPERTY_ID  |   smallint   |  NO  | PRI |  NULL   |       |
-|  OFFICE_NUM  |   tinyint    |  NO  |     |  NULL   |       |
-|   ADDRESS    | varchar(100) |  NO  |     |  NULL   |       |
-|    SQR_FT    |   smallint   |  NO  |     |  NULL   |       |
-|    BDRMS     |   tinyint    |  NO  |     |  NULL   |       |
-|    FLOORS    |   tinyint    |  NO  |     |  NULL   |       |
-| MONTHLY_RENT |   smallint   | YES  |     |  NULL   |       |
-|  OWNER_NUM   |   char(5)    |  NO  |     |  NULL   |       |
-+--------------+--------------+------+-----+---------+-------+
-Found:
-+--------------+--------------+-------------+------------+----------------+-------+
-| COLUMN_NAME  | COLUMN_TYPE  | IS_NULLABLE | COLUMN_KEY | COLUMN_DEFAULT | EXTRA |
-+--------------+--------------+-------------+------------+----------------+-------+
-| PROPERTY_ID  |   smallint   |     NO      |    PRI     |      NULL      |       |
-|  OFFICE_NUM  |   tinyint    |     NO      |            |      NULL      |       |
-|   ADDRESS    | varchar(100) |     NO      |            |      NULL      |       |
-|    SQR_FT    |   smallint   |     NO      |            |      NULL      |       |
-|    BDRMS     |   tinyint    |     NO      |            |      NULL      |       |
-|    FLOORS    |   tinyint    |     NO      |            |      NULL      |       |
-| MONTHLY_RENT |   smallint   |     YES     |            |      NULL      |       |
-|  OWNER_NUM   |   char(5)    |     NO      |            |      NULL      |       |
-+--------------+--------------+-------------+------------+----------------+-------+
-Error : AssertionError - 
-Timestamp: 2026-11-13 23:12:57.592116
+Reason: The query returned the expected results.None
+Timestamp: 2026-11-13 23:14:54.229871
